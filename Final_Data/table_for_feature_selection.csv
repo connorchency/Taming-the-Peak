@@ -1,0 +1,7 @@
+,model,equation,Adj-R2,MAPE,LR_test
+0,"Reference (cubic temperature, no wind or humidity)","Consumption ~ np.power(Temperature_F, 3) + np.power(Temperature_F, 2) + Temperature_F + Income + DayofWeek + Hour + WeekofYear",0.844305841234,0.136879299405,-
+1,Taking out Temperature,Consumption ~ Income + DayofWeek + Hour + WeekofYear,0.837939201782,0.146843515558,"(1044.116003744828, 4.839721152429259e-226, 3.0)"
+2,Linear Temperature,Consumption ~ Income + Temperature_F + DayofWeek + Hour + WeekofYear,0.843752897203,0.13727028037,"(94.099814721645089, 3.685401931643193e-21, 2.0)"
+3,Quadratic Temperature,"Consumption ~ Income + np.power(Temperature_F,2) + Temperature_F + DayofWeek + Hour + WeekofYear",0.843801673244,0.137467994139,"(84.985981418314623, 3.0048797885743721e-20, 1.0)"
+4,Cubic Temperature + wind + humidity,"Consumption ~ Income + Wind_Speed_MPH + Humidity + np.power(Temperature_F,3) + np.power(Temperature_F,2) + Temperature_F + DayofWeek + Hour + WeekofYear",0.846311942523,0.136598808823,"(338.89242940195254, 2.5730248225802146e-74, 2.0)"
+5,Taking out Income,"Consumption ~ np.power(Temperature_F,3) + np.power(Temperature_F,2) + Temperature_F + DayofWeek + Hour + WeekofYear",0.757742118858,0.166464276911,"(11486.677803586004, 0.0, 2.0)"
