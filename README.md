@@ -41,3 +41,5 @@ A comparative analysis between cities would give interesting insight into both d
 Study needs to be repeated for cities in different climate and income regions to refine the model for regional differences. 
 
 
+Project Valuation By Prof. Stanislav Sobolevsky
+## Above 93%, Excellent
