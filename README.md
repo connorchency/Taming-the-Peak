@@ -1,5 +1,5 @@
-## Taming the Peak
-#### Temporal analysis of the impact of weather and income on the energy consumption pattern of London households. 
+# Taming the Peak 
+## -Temporal analysis of the impact of weather and income on the energy consumption pattern of London households. 
 
 
 ![image](finalpredication.png.jpg)
