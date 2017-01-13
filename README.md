@@ -1,6 +1,9 @@
 # Taming the Peak 
 ## -Temporal analysis of the impact of weather and income on the energy consumption pattern of London households. 
 
+### Linear Model:
+Consumption ~ Income + Wind_Speed_MPH + Humidity + Temperature_F + Month + DayofWeek + Hour + WeekofYear, data = train)
+summary(m)
 
 ![image](finalpredication.png.jpg)
 ###### The observed values and predicted values are roughly on 45-degree lines, meaning that the prediction is somewhat accurate overall. 
